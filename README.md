@@ -1,7 +1,7 @@
 README for conan-oiio
 ======================
 
-This is a wrapper to create conan packages of the OpenImageIO repo: https://github.com/OpenImageIO/oiio
+This is a wrapper to create conan packages of [*OpenImageIO*](https://github.com/OpenImageIO/oiio)
 
 A package can be created using the standard conan workflow:
 
@@ -11,9 +11,19 @@ A package can be created using the standard conan workflow:
 
 or a suitable variant (conan create --help).
 
-Requirements:
+## Requirements:
+
 The latest stable of conan from pip python package manager works.
 
-TODO:
+## TODO:
+
 - Check oldest version of compatible conan
+
 - Choice on settings of dependencies / Propagation of settings to dependencies
+
+## Conan Recipe License
+
+NOTE: The conan recipe license applies only to the files of this recipe, which can be used to build and package opencv.
+It does *not* in any way apply or is related to the actual software being packaged.
+
+[MIT](LICENSE)
